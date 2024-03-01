@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    
+</head>
+<body>
+    
+        <img src="img/Logo.png" alt="logo" class="logo">
+    
+    <div class="contenedor">
+        <div class="izquierda">
+            
+            <textarea type="text" placeholder="Ingrese texto aqui" id="texto" oninput="validarEntrada(this)" ></textarea>
+                <img src="img/Frame 1.png" alt="frame1" id="frame1">
+            <div id="button" >
+                <button onclick="encriptarBoton()">Encriptar</button>
+                <button onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        
+   
+        <div class="derecha">
+            <textarea type="text" id="texto" class="oculto" ></textarea>
+            <img src="img/Muñeco.png" alt="muñeco" class="img" id="muñeco" >
+            <img src="img/Frame 5.png" alt="frame5"  class="img" id="frame5">
+            <div class="contenedorboton">
+                <button id="copiar" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="contenedorboton">
+                <button id="copiar" onclick="reiniciar()">reiniciar</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="scripts/script.js"></script>
+</html>

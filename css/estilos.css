@@ -1,0 +1,132 @@
+body{
+    background-color: antiquewhite;
+}
+.logo{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content:space-evenly; /* Espacio entre los elementos */
+    
+    width: 80%; /* Anchura del contenedor */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    max-width: 80%; /* Establece un ancho máximo del 80% del ancho total de la pantalla */
+    max-height: 70%;
+    
+    
+}
+
+.izquierda {
+    
+   
+    
+    /* Ancho y otros estilos según necesites */
+    
+    padding-left: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.derecha {
+   
+    /* Ancho y otros estilos según necesites */
+   
+    padding-right: 40px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+       
+}
+.izquierda, .derecha {
+    flex: 1;
+}
+
+#texto{
+    height: 418px;    
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
+    background-color: antiquewhite;
+    border-color: gray;
+}
+
+#texto::placeholder{
+    color: black;
+    font-weight: bolder;
+    
+}
+#frame1{
+    height: 15px;
+    width: 150px;
+    align-items: center;
+    margin-top: 116px;
+}
+
+#button{
+    display: flex;
+    
+  
+    
+    justify-content: space-between;
+}
+#button button{
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:80px;
+    height:30px;
+    border-radius: 3px;
+   }
+
+#muñeco{
+    height: 418px;    
+    border-radius: 3px;
+   }
+#frame5{
+    width: 250px;
+    height: 100px;
+    padding-left: 140px;
+}
+
+.contenedorboton{
+    display: flex;
+    justify-content: center;
+}
+
+#copiar{
+   
+    margin-top: 26px;
+    font-size:14px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:120px;
+    height:40px;
+    border-radius: 4px;
+   justify-content: center;
+}
+
+.oculto{
+    display: none;
+}
+
+.ver{
+    display: flex;
+}
+
+.esconder{
+    display: none;
+}
